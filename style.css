@@ -1,0 +1,36 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, b, i, ol, ul, li, figure, figcaption, footer, header, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f3ef;
+	flex-direction: column;
+	text-align: center;
+	padding: 5%;
+}
+
+img {
+  width: 100%;
+  vertical-align: text-top;
+}
+
+a {
+	min-width: 2rem;
+	margin-top: 1rem;
+}
